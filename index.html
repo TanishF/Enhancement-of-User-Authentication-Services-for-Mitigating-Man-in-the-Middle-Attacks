@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <noscript>
+        <div style="text-align: center; padding: 20px; background-color: #850de7; color: white;">
+            JavaScript must be enabled to use this website. Please enable JavaScript in your browser settings.
+        </div>
+    </noscript>
+    <center><br><br><br><br><br>
+    <h1>Login</h1><br>
+    
+    <form id="loginForm" action="login.php" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="uname" name="uname" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" required><br><br><br>
+        <input type="hidden" id="hashedPassword" name="hashedPassword"> <!-- Hidden field for hashed password -->
+        <button type="submit">Login</button>
+    </form>
+    <h3><a href="./registration.html">New user? <b>Sign up<b></a></h3>
+    </center>
+
+    <script src="hash.js"></script>
+</body>
+</html>
+    

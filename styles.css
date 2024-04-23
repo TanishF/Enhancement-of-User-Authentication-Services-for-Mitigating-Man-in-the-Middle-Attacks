@@ -1,0 +1,72 @@
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #000;
+  color: #eb0a42;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  text-align: center;
+  color: #850de7;
+  
+
+}
+
+.loginForm {
+  text-align: center;
+  border-radius: 5%;
+  border: #eb0a42;
+  border-color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: whitesmoke;
+  text-decoration: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  width: 15%;
+  padding: 10px;
+  border: none;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: #850de7;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #eb0a42;
+  outline: #fff;
+}
+
+button:focus {
+  outline: none;
+}
+
+h3 a {
+  color: #fff; /* White color */
+  text-decoration: none; /* Remove underline */
+}
+h3 a:hover {
+  color: #e80975; /* White color */
+  text-decoration: underline; /* Remove underline */
+}
